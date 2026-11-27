@@ -1,0 +1,71 @@
+
+body {
+    background:linear-gradient(to right,white, indigo);
+    font-family: Arial, sans-serif;
+    color: rgb(214, 20, 211);
+    margin: 0;
+    padding: 30px 15px;
+}
+
+.container {
+    background-color: black;
+    width: 350px;
+    max-width: 100%;
+    padding: 25px;
+    margin: 40px auto;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+h2, h3 {
+    text-align: center;
+    color: purple;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 9px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 70px;
+    resize: vertical;
+}
+
+button {
+    background-color: purple;
+    color: white;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: darkmagenta;
+}
+
+.hidden {
+    display: none;
+}
+
+#loginMsg {
+    text-align: center;
+    font-weight: bold;
+}
+
+#result {
+    color: green;
+}
